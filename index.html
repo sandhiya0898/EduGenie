@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduGenie - AI Study Assistant</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+body{background:#f5f7ff;color:#1a1a2e}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;background:white;box-shadow:0 2px 10px rgba(0,0,0,0.05)}
+.logo{font-weight:800;font-size:22px;color:#5a45fe}
+.hero{padding:80px 8%;text-align:center}
+.hero h1{font-size:42px;line-height:1.2;margin-bottom:16px}
+.hero span{color:#5a45fe}
+.hero p{color:#666;max-width:600px;margin:0 auto 30px;font-size:18px}
+.btn{background:#5a45fe;color:white;padding:14px 28px;border:none;border-radius:12px;font-size:16px;font-weight:600;cursor:pointer}
+.card-container{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:40px 8%}
+.card{background:white;padding:24px;border-radius:16px;box-shadow:0 4px 20px rgba(0,0,0,0.06)}
+.upload-box{max-width:700px;margin:40px auto;background:white;padding:30px;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,0.08);text-align:center}
+textarea{width:100%;height:120px;border:2px dashed #d0d0ff;border-radius:12px;padding:15px;margin:15px 0;font-size:15px;outline:none}
+</style>
+</head>
+<body>
+<nav><div class="logo">EduGenie 🧞‍♂️</div><div>Home | About</div></nav>
+<div class="hero">
+<h1>Your Personal <span>AI Study Buddy</span></h1>
+<p>Upload your notes, get instant summaries, quizzes and explanations in simple Tamil & English.</p>
+<button class="btn">Get Started Free</button>
+</div>
+<div class="card-container">
+<div class="card"><h3>📄 Summarize Notes</h3><p>Long notes ah 1-click la short pannum.</p></div>
+<div class="card"><h3>❓ Auto Quiz</h3><p>Un notes la irunthu quiz create pannum.</p></div>
+<div class="card"><h3>🗣️ Doubt Solver</h3><p>Entha doubt ah kettalum simple ah explain pannum.</p></div>
+</div>
+<div class="upload-box">
+<h2>Try EduGenie Now</h2>
+<textarea placeholder="Paste your notes or question here... Eg: What is Photosynthesis?"></textarea><br>
+<button class="btn" onclick="alert('AI is thinking... Your simplified answer will come here! (Demo)')">Ask Genie</button>
+<p style="margin-top:15px;color:#888;font-size:13px">*This is a college project demo version</p>
+</div>
+</body>
+</html>
